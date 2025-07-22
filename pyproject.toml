@@ -1,0 +1,23 @@
+[project]
+name = "think-fusion-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ddgs>=9.4.0",
+    "faiss-cpu>=1.11.0.post1",
+    "langchain>=0.3.26",
+    "langchain-community>=0.3.27",
+    "langchain-ollama>=0.3.5",
+    "langchain-openai>=0.3.28",
+    "langgraph>=0.5.4",
+    "langgraph-cli[inmem]>=0.3.5",
+    "langsmith>=0.4.8",
+    "markdownify>=1.1.0",
+    "markitdown[pdf]>=0.1.2",
+    "notebook>=7.4.4",
+    "python-dotenv>=1.1.1",
+    "streamlit>=1.47.0",
+    "tavily-python>=0.7.10",
+]
