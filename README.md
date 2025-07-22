@@ -3,6 +3,8 @@ A modular research agent that fuses **PDF content** and **live web search** usin
 
 ThinkFusionAgent reads your documents, searches the web, reasons step by step, and refines its answer until it converges on a confident response.
 
+🎥 [Watch Demo Video](./assets/demo.webm)
+
 
 ## 🚀 Features
 
