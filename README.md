@@ -1,7 +1,5 @@
 # 🧠 ThinkFusionAgent
-A modular research agent that fuses **PDF content** and **live web search** using **LangGraph**, **LLMs**, and **reflection-based reasoning**.
-
-ThinkFusionAgent reads your documents, searches the web, reasons step by step, and refines its answer until it converges on a confident response.
+ThinkFusionAgent reads your documents, searches the web, reflects step by step, and refines its answer until it converges on a confident response.
 
 <video src="https://github.com/user-attachments/assets/cadbcbb5-5a55-455b-930a-2e2320e657b6" controls></video>
 
@@ -11,7 +9,7 @@ ThinkFusionAgent reads your documents, searches the web, reasons step by step, a
 ## 🚀 Features
 
 - 🔍 **Ask anything** — research questions with or without a PDF
-- 📄 **PDF + Web hybrid reasoning** using semantic chunking and LLM synthesis
+- 📄 **PDF + Web hybrid retrieval** using semantic chunking and LLM synthesis
 - 🔁 **Reflective improvement loop** (answer → check → revise)
 - 📜 **Step-by-step LangGraph tracing** with optional Streamlit UI
 - 🌐 Works with **DuckDuckGo, Perplexity, Tavily, or SearxNG**
@@ -82,8 +80,6 @@ PRs welcome! To contribute:
 
 
 ## 🙏 Inspiration
-
-ThinkFusionAgent was inspired by the excellent [LocalDeepResearch](https://github.com/langchain-ai/local-deep-researcher) project by the LangChain team.
-While the architecture and implementation differ, the core ideas of **document-grounded reasoning**, **modular LangGraph workflows**, and **reflection-based refinement** shaped the initial direction of this project.
-Thanks to the open-source community for sharing these foundations. 
-Built for the joy of experimenting with AI-assisted development and pushing boundaries.
+ThinkFusionAgent started out as a side project inspired by the awesome [Local Deep Research](https://github.com/langchain-ai/local-deep-researcher) repo from the LangChain team.
+The code and setup are quite different, but the core ideas definitely helped shape what I wanted to build.
+This was built mostly out of curiosity — wanting something local, and just enjoying the process of using AI assistance to build and push boundaries.
